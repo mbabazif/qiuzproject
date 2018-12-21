@@ -19,6 +19,7 @@ body {
   background: rgb(155, 222, 135);
   text-align: center;
   color: white;
+  float: right;
 }
 label {
   display: block;
