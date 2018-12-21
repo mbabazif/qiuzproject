@@ -31,21 +31,11 @@ input {
 h2 {
   clear: both;
   padding-top: 20px;
+  font-weight: bold;
 }
-/* #button {
+#button {
   border-radius: 50px;
-  font-family: Arial;
-  color: #ffffff;
+  
   font-size: 20px;
   background: #3498db;
-  padding: 10px 20px 10px 20px;
-  margin: 20px; */
-/* } */
-#marks {
-  width: 400px;
-  height: 200px;
-  background-color: antiquewhite;
-}
-p {
-  font-size: 16;
-}
+ 
