@@ -3,6 +3,7 @@ which enables the students to do the javaScript exam using multple choice method
 
 if you want to :
 \$git clone the JavaScript qiuz on this through this link https://github.com/mbabazif/qiuzproject.git
+Access also this link to see the page:https://mbabazif.github.io/qiuzproject/
 
 \$Technologies used:
 
