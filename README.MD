@@ -15,3 +15,7 @@ DATE: 21/12/2018
 Copyright 2018 florence.
 
 BDD
+
+In javaScript i used the for loop to acomplish the function forexample:
+for (i = 0; i < grading.length; i++) {
+if (result == grading[i].score) {
