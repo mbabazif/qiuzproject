@@ -61,12 +61,8 @@ document.getElementById("form1").onsubmit = function() {
 
   for (i = 0; i < grading.length; i++) {
     if (result == grading[i].score) {
-      // result2 = grading[i].feedback + "<br /><img src='" + grading[i];
-      // ("' width='300'  />");
     }
   }
 
-  // document.getElementById("grade2").innerHTML = result2;
-
-  return false; // required to not refresh the page; just leave this here
-}; //this ends the submit function
+  return false;
+};
