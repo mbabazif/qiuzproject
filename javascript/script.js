@@ -89,3 +89,27 @@ $(document).ready(function() {
     check();
   });
 });
+
+$(document).ready(function() {
+  $("#button").click(function() {
+    $("#form1").toggle();
+    $("#marks").show();
+  });
+});
+
+// $(document).ready(function() {
+//   $("#marks").click(function() {
+//     $("#marks").show();
+//   });
+// });
+
+// $(document).ready(function() {
+//   $("#button").click(function() {
+//     $("#form1").toggle();
+//   });
+// });
+
+// $(document).ready(function() {
+//   $("#marks").click(function() {
+//     $("#marks").show();
+//   });
