@@ -1,5 +1,5 @@
-#Online quiz application
-##which enables the students to do the javaScript exam using multple choice method
+Online quiz application.
+which enables the students to do the javaScript exam using multple choice method
 if you want to git clone the triangle tracker
 
 \$Technologies used:

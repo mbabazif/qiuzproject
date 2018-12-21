@@ -42,8 +42,10 @@ h2 {
   margin: 20px;
 } */
 #marks {
-  visibility: hidden;
   width: 400px;
   height: 200px;
   background-color: antiquewhite;
+}
+p {
+  font-size: 16;
 }

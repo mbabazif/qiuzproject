@@ -1,5 +1,5 @@
 function check() {
-  alert("Seeing me");
+  // alert("Seeing me");
   var variable = parseInt(
     document.querySelector('input[name = "variable"]:checked').value
   );
@@ -76,7 +76,7 @@ function check() {
 
   for (i = 0; i < grading.length; i++) {
     if (result == grading[i].score) {
-      alert("your score is" + result);
+      // alert("your score is" + result);
     }
   }
 
@@ -87,14 +87,13 @@ $(document).ready(function() {
     // alert("ok");
     event.preventDefault();
     check();
+    $("#form1").toggle();
+    $("#marks").show();
   });
 });
 
 $(document).ready(function() {
-  $("#button").click(function() {
-    $("#form1").toggle();
-    $("#marks").show();
-  });
+  $("#button").click(function() {});
 });
 
 // $(document).ready(function() {
