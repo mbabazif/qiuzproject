@@ -1,6 +1,8 @@
 Online quiz application.
 which enables the students to do the javaScript exam using multple choice method
-if you want to git clone the triangle tracker
+
+if you want to :
+\$git clone the JavaScript qiuz on this through this link https://github.com/mbabazif/qiuzproject.git
 
 \$Technologies used:
 
@@ -9,6 +11,8 @@ JAVASCRIPT.
 HTML.
 
 CSS.
+jquery.
+bootstrap.
 
 DATE: 21/12/2018
 
