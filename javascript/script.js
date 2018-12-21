@@ -1,24 +1,39 @@
-document.getElementById("form1").onsubmit = function() {
-  variable = parseInt(
+function check() {
+  alert("Seeing me");
+  var variable = parseInt(
     document.querySelector('input[name = "variable"]:checked').value
   );
-  sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
-  con = parseInt(document.querySelector('input[name = "con"]:checked').value);
-  ifstate = parseInt(
+  var sub = parseInt(
+    document.querySelector('input[name = "sub"]:checked').value
+  );
+  var con = parseInt(
+    document.querySelector('input[name = "con"]:checked').value
+  );
+  var ifstate = parseInt(
     document.querySelector('input[name = "ifstate"]:checked').value
   );
-  data = parseInt(document.querySelector('input[name = "data"]:checked').value);
-  style = parseInt(
+  var data = parseInt(
+    document.querySelector('input[name = "data"]:checked').value
+  );
+  var style = parseInt(
     document.querySelector('input[name = "style"]:checked').value
   );
 
-  sta = parseInt(document.querySelector('input[name = "sta"]:checked').value);
+  var sta = parseInt(
+    document.querySelector('input[name = "sta"]:checked').value
+  );
 
-  pro = parseInt(document.querySelector('input[name = "pro"]:checked').value);
-  page = parseInt(document.querySelector('input[name = "page"]:checked').value);
-  tax = parseInt(document.querySelector('input[name = "tax"]:checked').value);
+  var pro = parseInt(
+    document.querySelector('input[name = "pro"]:checked').value
+  );
+  var page = parseInt(
+    document.querySelector('input[name = "page"]:checked').value
+  );
+  var tax = parseInt(
+    document.querySelector('input[name = "tax"]:checked').value
+  );
 
-  result =
+  var result =
     variable + sub + con + ifstate + data + style + sta + pro + page + page;
 
   document.getElementById("marks").innerHTML = result;
@@ -61,8 +76,16 @@ document.getElementById("form1").onsubmit = function() {
 
   for (i = 0; i < grading.length; i++) {
     if (result == grading[i].score) {
+      alert("your score is" + result);
     }
   }
 
-  return false;
-};
+  // return false;
+}
+$(document).ready(function() {
+  $("#form1 form").submit(function(event) {
+    // alert("ok");
+    event.preventDefault();
+    check();
+  });
+});

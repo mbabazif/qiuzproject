@@ -6,12 +6,17 @@
     <title>Java Script</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
     <script src="javascript/script.js"></script>
   </head>
   <body>
     <div id="main">
       <div id="header"><h1>JavaScript Quiz</h1></div>
-      <form id="form1">
+      <div id="form1">
+      <form>
         <h2>1. Which is the best description of a variable?</h2>
         <label for="var_string"
           ><input
@@ -26,7 +31,7 @@
           method to join strings.</label
         >
         <label for="var_info"
-          ><input type="radio" name="variable" value="25" id="var_info" />C. Allows
+          ><input type="radio" name="variable" value="1" id="var_info" />C. Allows
           you to store information so it can be reused throughout the
           program</label
         >
@@ -44,7 +49,7 @@
           ><input
             type="radio"
             name="sub"
-            value="25"
+            value="1"
             id="sub_string"
           />A. Identifies a portion of a string.</label
         >
@@ -146,6 +151,7 @@
         <button type="submit" value="Submit">Submit</button>
         <p>marks is: <span id="marks">_</span></p>
       </form>
+    </div>
     </div>
   </body>
 </html>
